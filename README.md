@@ -2,6 +2,8 @@
 
 A local-first Android PWA for recording meal expenses with the shortest possible flow: open, enter an amount, save.
 
+**Live app:** https://kq-kun.github.io/meal-ledger/
+
 ## Features
 
 - Fast amount-first entry with optional date, meal type, and note
@@ -36,7 +38,7 @@ npm run build
 3. Set **Source** to **GitHub Actions**.
 4. Push to `main` or run the deployment workflow manually.
 
-The Vite build uses relative asset paths, so it works from a repository subpath such as `https://username.github.io/meal-ledger/`.
+The Vite build uses relative asset paths, so it works from the deployed repository subpath at `https://kq-kun.github.io/meal-ledger/`.
 
 ## Android Installation
 
